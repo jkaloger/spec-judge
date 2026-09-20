@@ -1,0 +1,25 @@
+{
+  "name": "spec-judge",
+  "private": true,
+  "bin": {
+    "judge": "./index.ts"
+  },
+  "type": "module",
+  "module": "index.ts",
+  "scripts": {
+    "lint": "oxlint",
+    "fmt": "oxfmt .",
+    "fmt:check": "oxfmt --check ."
+  },
+  "dependencies": {
+    "ai": "^7.0.107"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "oxfmt": "^0.68.0",
+    "oxlint": "^1.83.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
