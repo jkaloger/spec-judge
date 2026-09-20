@@ -1,6 +1,10 @@
-# spec-judge
-
-## Synopsis
+<h1 align="center">
+  🧑‍⚖️
+  <br>spec-judge
+</h1>
+<p align="center">
+    Grades specs with jev via Vercel AI SDK. Experiment.
+</p>
 
 ```
 judge <spec-id-or-path> [--root <dir>]
